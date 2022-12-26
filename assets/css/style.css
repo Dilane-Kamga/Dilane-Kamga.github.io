@@ -61,6 +61,8 @@
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
   --smoky-black: hsl(0, 0%, 7%);
+  --blue-1: hsl(203, 92%, 19%);
+  --red-1: hsl(6, 69%, 35%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
   --orange-yellow-crayola: hsl(45, 100%, 72%);
@@ -155,14 +157,14 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--smoky-black); }
+body { background: var(--blue-1); }
 
 
 
 
 
 /*-----------------------------------*\
-  #REUSED STYLE
+  #REUSED STYLE smoky-black by --blue-1 on body
 \*-----------------------------------*/
 
 .sidebar,
@@ -261,7 +263,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-track {
-  background: var(--onyx);
+  background: var(--onyx);  /**/
   border-radius: 5px;
 }
 
@@ -459,7 +461,7 @@ main {
   bottom: 0;
   left: 0;
   width: 100%;
-  background: hsla(240, 1%, 17%, 0.75);
+  background:var(--red-1) ; /*hsla(240, 1%, 17%, 0.75) to --red-1*/
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
   border-radius: 12px 12px 0 0;
@@ -498,7 +500,7 @@ main {
 .about .article-title { margin-bottom: 15px; }
 
 .about-text {
-  color: var(--light-gray);
+  color: var(--light-gray); /*--light-gray to*/
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
