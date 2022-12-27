@@ -478,7 +478,7 @@ main {
 }
 
 .navbar-link {
-  color: var(--light-gray);
+  color: var(--light-gray); 
   font-size: var(--fs-8);
   padding: 20px 7px;
   transition: color var(--transition-1);
@@ -497,7 +497,10 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title { 
+  margin-bottom: 15px; 
+  color: var(--red-1); /*--light-gray to --red-1*/
+} 
 
 .about-text {
   color: var(--light-gray); /*--light-gray to*/
