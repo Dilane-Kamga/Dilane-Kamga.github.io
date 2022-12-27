@@ -318,7 +318,7 @@ main {
 
 .sidebar {
   margin-bottom: 15px;
-  max-height: 120px;
+  max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
 }
@@ -1888,8 +1888,3 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
-
-  /**
-	 * Download
-	 */
-
