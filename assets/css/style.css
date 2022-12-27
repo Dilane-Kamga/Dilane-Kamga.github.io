@@ -519,7 +519,10 @@ main {
 
 .service { margin-bottom: 35px; }
 
-.service-title { margin-bottom: 20px; }
+.service-title { 
+  margin-bottom: 20px; 
+  color: var(--red-1); /*--light-gray to --red-1*/
+}
 
 .service-list {
   display: grid;
@@ -1885,3 +1888,8 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+  /**
+	 * Download
+	 */
+
