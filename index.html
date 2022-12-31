@@ -23,6 +23,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  
+  <!--
+    Translation settings
+  -->
+  <script
+    id="locizify"
+    projectid="71cf1ba0-e5fc-4d06-b665-3df40ac44ac7"
+    src="https://unpkg.com/locizify@^5.3.1"
+    autopilot
+  >
+  </script>
 </head>
 
 <body>
@@ -41,7 +52,9 @@
 
     <aside class="sidebar" data-sidebar>
 
+      <!-- <div id="google_translate_element"></div> -->
       <div class="sidebar-info">
+        
 
         <figure class="avatar-box">
           <img src="./assets/images/my-avatar.png" alt="Yannick TALLA" width="80">
@@ -52,8 +65,6 @@
 
           <p class="title">Senior BI Consultant</p>
         </div>
-
-        <div id="google_translate_element"> 
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
@@ -68,6 +79,21 @@
         <div class="separator"></div>
 
         <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="language-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Language</p>
+
+              <a href="?lng=en" class="contact-link">English</a>
+              <a href="?lng=fr" class="contact-link">French</a>
+            </div>
+
+          </li>
 
           <li class="contact-item">
 
@@ -120,7 +146,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Courbevoie, Île-de-France, France</address>
+              <address>Les Pavillons-sous-Bois, Île-de-France, France</address>
             </div>
 
           </li>
@@ -167,14 +193,12 @@
             </a>
           </li>
 
-          <li class="social-item">
+          <!-- <li class="social-item">
             
               <ion-icon name="language-outline">
                
               </ion-icon>
-          
-          </li>
-
+           -->
           <!-- <li class="social-item">
             <a href="#" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
@@ -841,15 +865,15 @@
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web design</button>
+              <button data-filter-btn>BI Talend</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Applications</button>
+              <button data-filter-btn>BI Tableau</button>
             </li>
 
             <li class="filter-item">
-              <button data-filter-btn>Web development</button>
+              <button data-filter-btn>BI Qlik</button>
             </li>
 
           </ul>
@@ -873,15 +897,15 @@
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web design</button>
+                <button data-select-item>BI Talend</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Applications</button>
+                <button data-select-item>BI Tableau</button>
               </li>
 
               <li class="select-item">
-                <button data-select-item>Web development</button>
+                <button data-select-item>BI Qlik</button>
               </li>
 
             </ul>
@@ -903,7 +927,7 @@
 
                 <h3 class="project-title">Finance</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">BI Qlik</p>
 
               </a>
             </li>
@@ -919,9 +943,9 @@
                   <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">Marketing</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">BI Qlik</p>
 
               </a>
             </li>
@@ -937,9 +961,9 @@
                   <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">Real Estate</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">BI Talend</p>
 
               </a>
             </li>
@@ -955,9 +979,9 @@
                   <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Activities</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">BI Tableau</p>
 
               </a>
             </li>
@@ -973,9 +997,9 @@
                   <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">Heathcare</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">BI Talend</p>
 
               </a>
             </li>
@@ -991,9 +1015,9 @@
                   <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">Transportation</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">BI Talend</p>
 
               </a>
             </li>
@@ -1009,9 +1033,9 @@
                   <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">Healcare</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">BI Qlik</p>
 
               </a>
             </li>
@@ -1027,9 +1051,9 @@
                   <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">CRM</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">BI Tableau</p>
 
               </a>
             </li>
@@ -1045,9 +1069,9 @@
                   <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">Finance</h3>
 
-                <p class="project-category">Web development</p>
+                <p class="project-category">BI Qlik</p>
 
               </a>
             </li>
