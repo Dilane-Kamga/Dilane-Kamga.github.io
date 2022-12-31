@@ -1888,3 +1888,20 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* * Translate **/
+/* ------------------CSS-------------- */
+ /*<![CDATA[*/
+#google_translate_element{
+  padding: 2px;
+  position: relative;
+  right: 2px;
+  top: 2px;
+  background:url(assets/images/language-outline.css)
+  /* transparent!important;
+  background: ; */
+}
+/* .goog-te-banner-frame.skiptranslate,.goog-te-gadget-simple img,img.goog-te-gadget-icon,.goog-te-menu-value span{display:none!important}
+.goog-te-menu-frame{box-shadow:none!important} */
+  
+ /*]]> */
